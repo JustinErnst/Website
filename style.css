@@ -1,9 +1,13 @@
 p.normal {
-    font-style: normal;
+  font-style: normal;
 }
 p.italic {
-    font-style: italic;
+  font-style: italic;
 }
 p.oblique {
-    font-style: oblique;
+  font-style: oblique;
+}
+p {
+  font-size: xx-large;
+  color: #ff0000;  
 }
