@@ -1,13 +1,26 @@
-p.normal {
-  font-style: normal;
-}
-p.italic {
-  font-style: italic;
-}
-p.oblique {
-  font-style: oblique;
-}
-p {
+div.hoverable {
   font-size: xx-large;
-  color: #ff0000;  
+  color: #0000ff;
+  font-style: normal;
+
+}
+div.wrapper {
+  position: static;
+  /*top: 50px;*/
+}
+div.wrapper1 {
+  position: static;
+  height: 50px;
+}
+div.wrapper110px {
+  width: 110px;
+  display: inline-block;
+}
+#date {
+  width: 94px;
+}
+div.italic {
+  font-size: xx-large;
+  color: #0000ff;
+  font-style: italic;
 }

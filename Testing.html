@@ -10,26 +10,36 @@
 
     <title>Webpage</title>
 
+    <link rel="stylesheet" href="jquery-ui.css">
+    <script src="jquery-3.2.1.js"></script>
+    <script src="jquery.color-2.1.2.js"></script>
+    <script src="jquery-ui.js"></script>
     <!--[if IE]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
   </head>
   <body>
-    <p id="demo" class="normal">
-      Normal
-    </p>
-    <p class="italic">
+<div class="wrapper110px">
+<div class="wrapper1">
+    <div id="demo" class="hoverable">
+        Normal
+    </div>
+  </div>
+  <div class="wrapper">
+    <button type="button" id="clickme3">
+      Bigger
+    </button>
+    <button type="button" id="clickme4">
+      Smaller
+    </button>
+    <div id="memes" class="italic">
       Italic
-    </p>
-    <p class="oblique">
-      Oblique
-    </p>
-		<h1>Hello 1</h1>
-		<h2>Hello 2</h2>
-		<h3>Hello 3</h3>
-		<h4>Hello 4</h4>
-		<h5>Hello 5</h5>
-		<h6>Hello 6</h6>
+    </div>
+    <input type="text" name="date" id="date" />
+  </div>
+    <script type="text/javascript">
+      $( "#date" ).datepicker();
+    </script>
     <script src="FontSizeChange.js"></script>
   </body>
 </html>
